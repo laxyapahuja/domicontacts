@@ -9,5 +9,4 @@ sync google contacts with information from the dominos data breach
 5. `python script.py`
 6. after the program is done running (it can take a long time depending on the number of contacts you have), the contacts.csv will be updated with email address and address of every contact which was available on the api
 7. if there is any error during the process, note down the index and replace it with the index variable and run it again
-8. if it continues to throw an error, skip the index and move on to the next
 9. import the updated csv on google contacts again and merge all the contacts with the existing ones
