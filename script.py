@@ -27,7 +27,7 @@ for number in numbers:
             db_data = response.json()['db_data']
             clear()
             print('{} [{}/{}]'.format(number, index, (len(numbers)-1)))
-        except KeyError:
+        except:
             if i == 2:
                 throw_error = True
                 break
