@@ -3,7 +3,7 @@ sync google contacts with information from the dominos data breach
 
 ## usage
 1. open tor browser in the background
-2. `pip i requirements.txt`
+2. `pip install -r requirements.txt`
 3. go to [google contacts website](https://contacts.google.com)
 4. export your contacts and save them in the cloned repository directory
 5. `python script.py`
